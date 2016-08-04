@@ -1,3 +1,5 @@
 app/cache/
 update.sh
 upload.sh
+
+extensions/
