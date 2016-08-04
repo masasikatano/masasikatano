@@ -29,7 +29,6 @@ class ComposerStaticInitc50ef6709f207dbbe457819757dc5a64
         'Bolt\\Composer\\EventListener\\BufferIOListener' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/BufferIOListener.php',
         'Bolt\\Composer\\EventListener\\PackageDescriptor' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageDescriptor.php',
         'Bolt\\Composer\\EventListener\\PackageEventListener' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageEventListener.php',
-        'Bolt\\Extension\\Bolt\\ZocialIcons\\ZocialIconsExtension' => __DIR__ . '/..' . '/bolt/zocial-icons/src/ZocialIconsExtension.php',
         'Bolt\\Extension\\Jadwigo\\TaxonomyList\\TaxonomyListExtension' => __DIR__ . '/..' . '/jadwigo/taxonomylist/src/TaxonomyListExtension.php',
         'Bolt\\Extension\\Jadwigo\\TaxonomyList\\Twig\\TaxonomyListExtension' => __DIR__ . '/..' . '/jadwigo/taxonomylist/src/Twig/TaxonomyListExtension.php',
     );
