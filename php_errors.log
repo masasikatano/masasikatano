@@ -1,0 +1,146 @@
+[23-Jul-2016 09:00:00 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowLevelDatabaseException' with message 'There is no password set for the database connection, and you're using user 'root'. That must surely be a mistake, right? Bolt will stubbornly refuse to run until you've set a password for 'root'.' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Exception/LowLevelDatabaseException.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(206): Bolt\Exception\LowLevelDatabaseException::unsecure()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(450): Bolt\Configuration\LowlevelChecks->doDatabaseCheck()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(411): Bolt\Configuration\ResourceManager->verifyDb()
+#3 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(394): Bolt\Configuration\ResourceManager->postInitialize()
+#4 /home/ubuntu/workspace/vendor/bolt/bolt/src/Application.php(59): Bolt\Configuration\Resourc in /home/ubuntu/workspace/vendor/bolt/bolt/src/Exception/LowLevelDatabaseException.php on line 46
+[23-Jul-2016 09:00:05 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowLevelDatabaseException' with message 'There is no password set for the database connection, and you're using user 'root'. That must surely be a mistake, right? Bolt will stubbornly refuse to run until you've set a password for 'root'.' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Exception/LowLevelDatabaseException.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(206): Bolt\Exception\LowLevelDatabaseException::unsecure()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(450): Bolt\Configuration\LowlevelChecks->doDatabaseCheck()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(411): Bolt\Configuration\ResourceManager->verifyDb()
+#3 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(394): Bolt\Configuration\ResourceManager->postInitialize()
+#4 /home/ubuntu/workspace/vendor/bolt/bolt/src/Application.php(59): Bolt\Configuration\Resourc in /home/ubuntu/workspace/vendor/bolt/bolt/src/Exception/LowLevelDatabaseException.php on line 46
+[23-Jul-2016 09:02:39 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host localhost [Connection refused #111]' in /home/ubuntu/workspace/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/ubuntu/workspace/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/ubuntu/workspace/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php(83): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Provider/SwiftmailerServiceProvider.php(95): Swift_MemorySpool->flushQueue(Object(Swift_Transport_EsmtpTransport))
+#4 [internal function]: Silex\Provider\SwiftmailerServiceProvider->Silex\Provider\{closure}(Object(Symfony\Component\H in /home/ubuntu/workspace/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[30-Jul-2016 13:25:23 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 13:25:43 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 13:26:50 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 13:28:19 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 13:28:57 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 14:11:46 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 14:12:11 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 14:12:43 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[30-Jul-2016 14:21:01 UTC] PHP Fatal error:  Uncaught exception 'Bolt\Exception\LowlevelException' with message 'The file /home/ubuntu/workspace/.htaccess doesn't exist. Make sure it's present and readable to the user that the webserver is using. If you are not running Apache, or your Apache setup performs the correct rewrites without requiring a .htaccess file (in other words, if you know what you are doing), you can disable this check by calling $config->getVerifier()->disableApacheChecks(); in bootstrap.php' in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php:159
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php(85): Bolt\Configuration\LowlevelChecks->checkApache()
+#1 /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/ResourceManager.php(442): Bolt\Configuration\LowlevelChecks->doChecks()
+#2 /home/ubuntu/workspace/vendor/bolt/bolt/app/bootstrap.php(116): Bolt\Configuration\ResourceManager->verify()
+#3 [internal function]: Bolt\{closure}()
+#4 /home/ubuntu/workspace/vendor/bo in /home/ubuntu/workspace/vendor/bolt/bolt/src/Configuration/LowlevelChecks.php on line 159
+[31-Jul-2016 02:38:58 UTC] PHP Catchable fatal error:  Argument 1 passed to Bolt\AccessControl\Login::loginFinish() must be an instance of Bolt\Storage\Entity\Users, null given, called in /home/ubuntu/workspace/vendor/bolt/bolt/src/AccessControl/Login.php on line 94 and defined in /home/ubuntu/workspace/vendor/bolt/bolt/src/AccessControl/Login.php on line 214
+[31-Jul-2016 02:38:58 UTC] PHP Stack trace:
+[31-Jul-2016 02:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[31-Jul-2016 02:38:58 UTC] PHP   2. Silex\Application->run() /home/ubuntu/workspace/public/index.php:14
+[31-Jul-2016 02:38:58 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:563
+[31-Jul-2016 02:38:58 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:586
+[31-Jul-2016 02:38:58 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:64
+[31-Jul-2016 02:38:58 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144}() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[31-Jul-2016 02:38:58 UTC] PHP   7. Bolt\Controller\Backend\Authentication->postLogin() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[31-Jul-2016 02:38:58 UTC] PHP   8. Bolt\Controller\Backend\Authentication->handlePostLogin() /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Backend/Authentication.php:81
+[31-Jul-2016 02:38:58 UTC] PHP   9. Bolt\AccessControl\Login->login() /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Backend/Authentication.php:152
+[31-Jul-2016 02:38:58 UTC] PHP  10. Bolt\AccessControl\Login->loginCheckPassword() /home/ubuntu/workspace/vendor/bolt/bolt/src/AccessControl/Login.php:73
+[31-Jul-2016 02:38:58 UTC] PHP  11. Bolt\AccessControl\Login->loginFinish() /home/ubuntu/workspace/vendor/bolt/bolt/src/AccessControl/Login.php:94
+[02-Aug-2016 07:05:40 UTC] PHP Catchable fatal error:  Argument 1 passed to utilphp\util::array_flatten() must be of the type array, null given, called in /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Frontend.php on line 319 and defined in /home/ubuntu/workspace/vendor/brandonwamboldt/utilphp/src/utilphp/util.php on line 2180
+[02-Aug-2016 07:05:40 UTC] PHP Stack trace:
+[02-Aug-2016 07:05:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Aug-2016 07:05:40 UTC] PHP   2. Silex\Application->run() /home/ubuntu/workspace/public/index.php:14
+[02-Aug-2016 07:05:40 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:563
+[02-Aug-2016 07:05:40 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:586
+[02-Aug-2016 07:05:40 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:64
+[02-Aug-2016 07:05:40 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144}() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[02-Aug-2016 07:05:40 UTC] PHP   7. Bolt\Controller\Frontend->taxonomy() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[02-Aug-2016 07:05:40 UTC] PHP   8. utilphp\util::array_flatten() /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Frontend.php:319
+[02-Aug-2016 07:12:25 UTC] PHP Catchable fatal error:  Argument 1 passed to utilphp\util::array_flatten() must be of the type array, null given, called in /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Frontend.php on line 319 and defined in /home/ubuntu/workspace/vendor/brandonwamboldt/utilphp/src/utilphp/util.php on line 2180
+[02-Aug-2016 07:12:25 UTC] PHP Stack trace:
+[02-Aug-2016 07:12:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Aug-2016 07:12:25 UTC] PHP   2. Silex\Application->run() /home/ubuntu/workspace/public/index.php:14
+[02-Aug-2016 07:12:25 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:563
+[02-Aug-2016 07:12:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:586
+[02-Aug-2016 07:12:25 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:64
+[02-Aug-2016 07:12:25 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144}() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[02-Aug-2016 07:12:25 UTC] PHP   7. Bolt\Controller\Frontend->taxonomy() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:144
+[02-Aug-2016 07:12:25 UTC] PHP   8. utilphp\util::array_flatten() /home/ubuntu/workspace/vendor/bolt/bolt/src/Controller/Frontend.php:319
+[03-Aug-2016 03:17:02 UTC] PHP Catchable fatal error:  Object of class Bolt\Legacy\Content could not be converted to string in /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code on line 91
+[03-Aug-2016 03:17:02 UTC] PHP Stack trace:
+[03-Aug-2016 03:17:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[03-Aug-2016 03:17:02 UTC] PHP   2. Silex\Application->run() /home/ubuntu/workspace/public/index.php:14
+[03-Aug-2016 03:17:02 UTC] PHP   3. Silex\Application->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:563
+[03-Aug-2016 03:17:02 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:586
+[03-Aug-2016 03:17:02 UTC] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:64
+[03-Aug-2016 03:17:02 UTC] PHP   6. Symfony\Component\HttpKernel\HttpKernel->filterResponse() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:166
+[03-Aug-2016 03:17:02 UTC] PHP   7. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:184
+[03-Aug-2016 03:17:02 UTC] PHP   8. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php:140
+[03-Aug-2016 03:17:02 UTC] PHP   9. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:46
+[03-Aug-2016 03:17:02 UTC] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184}() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184
+[03-Aug-2016 03:17:02 UTC] PHP  11. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184
+[03-Aug-2016 03:17:02 UTC] PHP  12. call_user_func:{/home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61
+[03-Aug-2016 03:17:02 UTC] PHP  13. Symfony\Component\HttpKernel\EventListener\SurrogateListener->onKernelResponse() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61
+[03-Aug-2016 03:17:02 UTC] PHP  14. Symfony\Component\HttpKernel\HttpCache\Esi->addSurrogateControl() /home/ubuntu/workspace/vendor/symfony/http-kernel/EventListener/SurrogateListener.php:49
+[03-Aug-2016 03:17:02 UTC] PHP  15. Bolt\Response\BoltResponse->getContent() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpCache/Esi.php:131
+[03-Aug-2016 03:17:02 UTC] PHP  16. Bolt\Response\BoltResponse->compile() /home/ubuntu/workspace/vendor/bolt/bolt/src/Response/BoltResponse.php:174
+[03-Aug-2016 03:17:02 UTC] PHP  17. Twig_Template->render() /home/ubuntu/workspace/vendor/bolt/bolt/src/Response/BoltResponse.php:198
+[03-Aug-2016 03:17:02 UTC] PHP  18. Twig_Template->display() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:366
+[03-Aug-2016 03:17:02 UTC] PHP  19. Twig_Template->displayWithErrorHandling() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:355
+[03-Aug-2016 03:17:02 UTC] PHP  20. __TwigTemplate_65b569c853494cab8915bae6c507ac56f1e629882f6126a5a6f5442b7fbe10df->doDisplay() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:387
+[03-Aug-2016 03:17:02 UTC] PHP  21. Twig_Template->display() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code:27
+[03-Aug-2016 03:17:02 UTC] PHP  22. Twig_Template->displayWithErrorHandling() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:355
+[03-Aug-2016 03:17:02 UTC] PHP  23. __TwigTemplate_856ca889bf9f5443ab950785445fbac1943cde8477beeb972dbdcbae255e5767->doDisplay() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:387
+[03-Aug-2016 03:17:02 UTC] PHP  24. Twig_Template->displayBlock() /home/ubuntu/workspace/app/cache/e9/e912ae60e10397f9fd00220d0be9fcfa2e175d88951e160952a938dfc2fda280.php:74
+[03-Aug-2016 03:17:02 UTC] PHP  25. __TwigTemplate_856ca889bf9f5443ab950785445fbac1943cde8477beeb972dbdcbae255e5767->block_body() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167
+[03-Aug-2016 03:17:02 UTC] PHP  26. Twig_Template->displayBlock() /home/ubuntu/workspace/app/cache/e9/e912ae60e10397f9fd00220d0be9fcfa2e175d88951e160952a938dfc2fda280.php:171
+[03-Aug-2016 03:17:02 UTC] PHP  27. __TwigTemplate_65b569c853494cab8915bae6c507ac56f1e629882f6126a5a6f5442b7fbe10df->block_main() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167

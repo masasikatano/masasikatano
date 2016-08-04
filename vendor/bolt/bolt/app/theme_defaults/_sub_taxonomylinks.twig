@@ -1,0 +1,19 @@
+{% if record.taxonomy is defined %}
+<hr />
+
+    {% for type, values in record.taxonomy %}
+        <h3>
+        {% if values|length < 2 %}
+            {{ config.get('taxonomy')[type].singular_name }}
+        {% else %}
+            {{ config.get('taxonomy')[type].name }}
+        {% endif %}
+        </h3>
+        
+        <ul class="tags">
+        {% for link, value in values %}
+            <li><a href="{{ link }}">{{ value }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+{% endif %}

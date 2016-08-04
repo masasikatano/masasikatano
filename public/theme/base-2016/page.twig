@@ -1,0 +1,100 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+
+    <h1>{{ record.title }}</h1>
+
+    {{ record.teaser }}
+
+    {% if record.image!="" %}
+        <a href="{{ image(record.image) }}">
+            <img src="{{ thumbnail(record.image, 740, 560) }}">
+        </a>
+    {% endif %}
+
+    {{ record.body }}
+
+    {# If there are repeaters, we should output them. #}
+    {{ fields(common = false, extended = false, repeaters = true) }}
+
+    {# Uncomment this if you wish to dump the entire record to the client, for debugging purposes.
+    {{ dump(record) }}
+    #}
+
+    {{ include('partials/_recordfooter.twig', { 'record': record, 'extended': true }) }}
+
+    <hr />
+    
+    <h3>Share</h3>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url={{ app.request.uri }}&amp;text={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}&amp;hashtags={% for type, values in record.taxonomy %}{% for link, value in values %}{{ value }}{% if not loop.last %},{% endif %}{% endfor %}{% endfor %}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}twitter.png" alt="Twitter" />
+    </a>
+
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u={{ app.request.uri }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}facebook.png" alt="Facebook" />
+    </a>
+
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url={{ app.request.uri }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}google.png" alt="Google" />
+    </a>
+
+    <!-- Pinterest -->
+    <a href="http://pinterest.com/pin/create/button/?url={{ app.request.uri }}">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}pinterest.png" alt="Pinterest" />
+    </a>
+    
+    <!-- Tumblr-->
+    <a href="http://www.tumblr.com/share/link?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}tumblr.png" alt="Tumblr" />
+    </a>
+
+    <!-- Buffer -->
+    <a href="https://bufferapp.com/add?url={{ app.request.uri }}&amp;text={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}buffer.png" alt="Buffer" />
+    </a>
+    
+    <!-- Digg -->
+    <a href="http://www.digg.com/submit?url={{ app.request.uri }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}diggit.png" alt="Digg" />
+    </a>    
+    
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ app.request.uri }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}linkedin.png" alt="LinkedIn" />
+    </a>
+            
+    <!-- Reddit -->
+    <a href="http://reddit.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}reddit.png" alt="Reddit" />
+    </a>
+    
+    <!-- StumbleUpon-->
+    <a href="http://www.stumbleupon.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}stumbleupon.png" alt="StumbleUpon" />
+    </a>     
+    
+    <!-- VK -->
+    <a href="http://vkontakte.ru/share.php?url={{ app.request.uri }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}vk.png" alt="VK" />
+    </a>
+    
+    <!-- Yummly -->
+    <a href="http://www.yummly.com/urb/verify?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}yummly.png" alt="Yummly" />
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:?Subject={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 {{ app.request.uri }}">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}email.png" alt="Email" />
+    </a>
+      
+    <!-- Print -->
+    <a href="javascript:;" onclick="window.print()">
+        <img class="share" src="{{ paths.theme ~ 'images/icon/' }}print.png" alt="Print" />
+    </a>
+  
+{% endblock main %}
