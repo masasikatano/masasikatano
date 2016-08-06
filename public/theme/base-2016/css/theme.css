@@ -150,7 +150,7 @@ ul.tags li a:hover::before {
 }
 
 h2,h3 {
-  padding: 1em 0 0.5em 0.1em;
+  padding: 0.5em 0 0.5em 0.1em;
 }
 
 img {
