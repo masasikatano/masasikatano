@@ -14,6 +14,30 @@
             {% if record.title is not defined and app.config.get('general/payoff') %} | {{ app.config.get('general/payoff') }}{% endif -%}
         </title>
         
+        <script>
+        // 	var cb = function() {
+        // 	var l = document.createElement('link'); l.rel = 'stylesheet';
+        // 	l.href = '{{ paths.theme }}css/foundation.css';
+        // 	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        // 	};
+        // 	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+        // 	if (raf) raf(cb);
+        // 	else window.addEventListener('load', cb);
+        </script>
+        
+        <script>
+        // 	var cb = function() {
+        // 	var l = document.createElement('link'); l.rel = 'stylesheet';
+        // 	l.href = '{{ paths.theme }}css/theme.css';
+        // 	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        // 	};
+        // 	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+        // 	if (raf) raf(cb);
+        // 	else window.addEventListener('load', cb);
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="{{ paths.theme }}css/foundation.css">
+        <link rel="stylesheet" type="text/css" href="{{ paths.theme }}css/theme.css">
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans:700,700italic' rel='stylesheet' type='text/css'>
         {% block headincludes %}
         {% endblock headincludes %}

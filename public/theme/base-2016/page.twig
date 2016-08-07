@@ -26,9 +26,8 @@
     <hr />
     
     <h3>Share</h3>
-
     <!-- Twitter -->
-    <a href="https://twitter.com/share?url={{ app.request.uri }}&amp;text={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}&amp;hashtags={% for type, values in record.taxonomy %}{% for link, value in values %}{{ value }}{% if not loop.last %},{% endif %}{% endfor %}{% endfor %}" target="_blank">
+    <a href="https://twitter.com/share?url={{ app.request.uri }}&amp;text={{ record.title }}&amp;hashtags={% for type, values in record.taxonomy %}{% for link, value in values %}{{ value }}{% if not loop.last %},{% endif %}{% endfor %}{% endfor %}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}twitter.png" alt="Twitter" />
     </a>
 
@@ -48,12 +47,12 @@
     </a>
     
     <!-- Tumblr-->
-    <a href="http://www.tumblr.com/share/link?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+    <a href="http://www.tumblr.com/share/link?url={{ app.request.uri }}&amp;title={{ record.title }}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}tumblr.png" alt="Tumblr" />
     </a>
 
     <!-- Buffer -->
-    <a href="https://bufferapp.com/add?url={{ app.request.uri }}&amp;text={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+    <a href="https://bufferapp.com/add?url={{ app.request.uri }}&amp;text={{ record.title }}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}buffer.png" alt="Buffer" />
     </a>
     
@@ -68,12 +67,12 @@
     </a>
             
     <!-- Reddit -->
-    <a href="http://reddit.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+    <a href="http://reddit.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}reddit.png" alt="Reddit" />
     </a>
     
     <!-- StumbleUpon-->
-    <a href="http://www.stumbleupon.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+    <a href="http://www.stumbleupon.com/submit?url={{ app.request.uri }}&amp;title={{ record.title }}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}stumbleupon.png" alt="StumbleUpon" />
     </a>     
     
@@ -83,12 +82,12 @@
     </a>
     
     <!-- Yummly -->
-    <a href="http://www.yummly.com/urb/verify?url={{ app.request.uri }}&amp;title={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}" target="_blank">
+    <a href="http://www.yummly.com/urb/verify?url={{ app.request.uri }}&amp;title={{ record.title }}" target="_blank">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}yummly.png" alt="Yummly" />
     </a>
 
     <!-- Email -->
-    <a href="mailto:?Subject={{ record.title }}%20%7c%20{{ app.config.get('general/sitename') }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 {{ app.request.uri }}">
+    <a href="mailto:?Subject={{ record.title }}&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 {{ app.request.uri }}">
         <img class="share" src="{{ paths.theme ~ 'images/icon/' }}email.png" alt="Email" />
     </a>
       

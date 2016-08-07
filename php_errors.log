@@ -144,3 +144,32 @@ Stack trace:
 [03-Aug-2016 03:17:02 UTC] PHP  25. __TwigTemplate_856ca889bf9f5443ab950785445fbac1943cde8477beeb972dbdcbae255e5767->block_body() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167
 [03-Aug-2016 03:17:02 UTC] PHP  26. Twig_Template->displayBlock() /home/ubuntu/workspace/app/cache/e9/e912ae60e10397f9fd00220d0be9fcfa2e175d88951e160952a938dfc2fda280.php:171
 [03-Aug-2016 03:17:02 UTC] PHP  27. __TwigTemplate_65b569c853494cab8915bae6c507ac56f1e629882f6126a5a6f5442b7fbe10df->block_main() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP Catchable fatal error:  Object of class Symfony\Component\HttpFoundation\ServerBag could not be converted to string in /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code on line 95
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP Stack trace:
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   2. Silex\Application->run() /home/ubuntu/workspace/public/index.php:14
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   3. Silex\Application->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:563
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/silex/silex/src/Silex/Application.php:586
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   5. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:64
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   6. Symfony\Component\HttpKernel\HttpKernel->filterResponse() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:166
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   7. Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher->dispatch() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpKernel.php:184
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   8. Symfony\Component\EventDispatcher\EventDispatcher->dispatch() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php:140
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP   9. Symfony\Component\EventDispatcher\EventDispatcher->doDispatch() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:46
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  10. call_user_func:{/home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184}() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  11. Symfony\Component\EventDispatcher\Debug\WrappedListener->__invoke() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/EventDispatcher.php:184
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  12. call_user_func:{/home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61}() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  13. Symfony\Component\HttpKernel\EventListener\SurrogateListener->onKernelResponse() /home/ubuntu/workspace/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:61
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  14. Symfony\Component\HttpKernel\HttpCache\Esi->addSurrogateControl() /home/ubuntu/workspace/vendor/symfony/http-kernel/EventListener/SurrogateListener.php:49
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  15. Bolt\Response\BoltResponse->getContent() /home/ubuntu/workspace/vendor/symfony/http-kernel/HttpCache/Esi.php:131
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  16. Bolt\Response\BoltResponse->compile() /home/ubuntu/workspace/vendor/bolt/bolt/src/Response/BoltResponse.php:174
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  17. Twig_Template->render() /home/ubuntu/workspace/vendor/bolt/bolt/src/Response/BoltResponse.php:198
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  18. Twig_Template->display() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:366
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  19. Twig_Template->displayWithErrorHandling() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:355
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  20. __TwigTemplate_65b569c853494cab8915bae6c507ac56f1e629882f6126a5a6f5442b7fbe10df->doDisplay() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:387
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  21. Twig_Template->display() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code:27
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  22. Twig_Template->displayWithErrorHandling() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:355
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  23. __TwigTemplate_856ca889bf9f5443ab950785445fbac1943cde8477beeb972dbdcbae255e5767->doDisplay() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:387
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  24. Twig_Template->displayBlock() /home/ubuntu/workspace/app/cache/e9/e912ae60e10397f9fd00220d0be9fcfa2e175d88951e160952a938dfc2fda280.php:67
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  25. __TwigTemplate_856ca889bf9f5443ab950785445fbac1943cde8477beeb972dbdcbae255e5767->block_body() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  26. Twig_Template->displayBlock() /home/ubuntu/workspace/app/cache/e9/e912ae60e10397f9fd00220d0be9fcfa2e175d88951e160952a938dfc2fda280.php:165
+[07-Aug-2016 22:03:09 Asia/Tokyo] PHP  27. __TwigTemplate_65b569c853494cab8915bae6c507ac56f1e629882f6126a5a6f5442b7fbe10df->block_main() /home/ubuntu/workspace/vendor/twig/twig/lib/Twig/Template.php:167
