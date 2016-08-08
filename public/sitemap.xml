@@ -1,713 +1,596 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://masasikatano.link/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>http://masasikatano.link/</loc>
-  <lastmod>2016-08-01</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.0</priority>
-</url>
+  <url>
+    <loc>https://masasikatano.link/showcase/link</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://masasikatano.link/page/machine-learning-gnu-octave</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/bolt-cms-on-raspberry-pi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi-tuning</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi-web-server-https</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi-tuning-php</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi-front-end</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/machine-learning-model-and-cost-function</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/google-page-insight</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/machine-learning-steepest-descent-method</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/macro-on-excelvba</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/liner-algebra</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/web-service-for-free</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/jojos-bizarre-regular-expression</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/machine-learning-supervised-learning</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/ruby-on-rails-on-sass-scss</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/receptional-network-in-japan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/npo-ancore</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/math-review</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-python2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/heroku-on-ruby-on-rails</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/online-game-server</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/laravel5</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/math-differential-integral</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/git-summary</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-keystone-js</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-clanguage</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/unity</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-nodejs</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/machine-learning-introduction</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/readable-code</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/roundup-of-java-3letters-package</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-ruby-on-rails</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/liner-algebra-matrix-multiplication</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/rails-on-sass-on-bootstrap</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-ruby-on-rails2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/cloud9-on-ruby-on-rails2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Octave</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/dropbearssh</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-  <loc>http://masasikatano.link/showcase/link</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/machine-learning-gnu-octave</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/math-differential-integral</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/machine-learning-steepest-descent-method</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/npo-ancore</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/online-game-server</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/machine-learning-model-and-cost-function</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/cloud9</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Ruby</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/RubyOnRails</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Coursera</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/JavaScript</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/C++</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/PHP</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/SQLite</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/sass</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/bootstrap</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/MongoDB</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Java</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Python</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/tinker</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/NPO</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Node</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/vba</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/byethost</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/gcc</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/GooglePageInsight</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Keystone</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/visualbasic</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/3D</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Raspbian</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Unity</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/SIM</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/GitHub</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/artisan</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/PostgreSQL</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Steam</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Scss</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Python2</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Google</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/excel</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/CMS</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/BYET</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/sql</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/LAMP</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/raspberrypi</loc>
-  <priority>0.8</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/files/</loc>
-  <priority>0.7</priority>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%95%B0%E5%AD%A6</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Octave</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E5%BE%AE%E5%88%86</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E7%A9%8D%E5%88%86</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E9%9D%A2%E7%A9%8D</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E5%9B%9E%E5%B8%B0</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Bootstrap</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/MySQL</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%82%B5%E3%83%BC%E3%83%90</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E7%9B%AE%E7%9A%84%E9%96%A2%E6%95%B0</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E4%BB%AE%E8%A8%AD%E9%96%A2%E6%95%B0</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/machine-learning-supervised-learning</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-ruby-on-rails2</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-ruby-on-rails2</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-python2</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-keystone-js</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-nodejs</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-ruby-on-rails</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/rails-on-sass-on-bootstrap</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/ruby-on-rails-on-sass-scss</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/readable-code</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/heroku-on-ruby-on-rails</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/machine-learning-introduction</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-clanguage</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/laravel5</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/roundup-of-java-3letters-package</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/macro-on-excelvba</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/web-service-for-free</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/google-page-insight</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/unity</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/raspberry-pi</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/receptional-network-in-japan</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/git-summary</loc>
-  <priority>0.7</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/math-review</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/liner-algebra-matrix-multiplication</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/liner-algebra</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%95%99%E5%B8%AB%E3%81%82%E3%82%8A%E5%AD%A6%E7%BF%92</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E5%88%86%E9%A1%9E</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/ruby</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E7%84%A1%E6%96%99WEB%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/cloud9-on-nodejs/hhttp://dotinstall.com/lessons/basic_nodejs/26201</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/javascript</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Sass</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Heroku</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/SQlite</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E7%BF%BB%E8%A8%B3</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/C%E8%A8%80%E8%AA%9E</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Laravel</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/php</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%83%9E%E3%82%AF%E3%83%AD</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/Access</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/page/jojos-bizarre-regular-expression</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E8%A8%BA%E6%96%AD</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/webgl</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E9%9B%BB%E6%B3%A2</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E5%91%A8%E6%B3%A2%E6%95%B0</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/git</loc>
-  <priority>0.6</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/2%E6%AC%A1%E9%96%A2%E6%95%B0</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E5%82%BE%E3%81%8D</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%97%E6%B3%95</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E8%A1%8C%E5%88%97</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%82%B8%E3%83%A7%E3%82%B8%E3%83%A7</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E3%83%A1%E3%82%BF%E6%96%87%E5%AD%97</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>http://masasikatano.link/tags/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE</loc>
-  <priority>0.5</priority>
-  <lastmod>2016-07-30T23:11:43+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-
-</urlset> 
+  <url>
+    <loc>https://masasikatano.link/tags/診断</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/最急降下法</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/目的関数</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/ベクトル</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/sql</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/正規表現</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/分類</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/周波数</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/BYET</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/CMS</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Google</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/excel</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Scss</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Python2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/最小二乗法</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/php7</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Steam</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/SIM</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/PostgreSQL</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/GitHub</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/artisan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/面積</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Unity</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/2次関数</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/bolt</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/仮設関数</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/3D</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/C言語</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/ジョジョ</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/GooglePageInsight</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/微分</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/visualbasic</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Keystone</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/翻訳</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/マクロ</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/gcc</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/byethost</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/回帰</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/vba</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Node</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/メタ文字</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/教師あり学習</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/コーディング</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/SQLite</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/ssl</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Python</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/LAMP</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Java</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/MongoDB</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/線形代数</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/bootstrap</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Raspbian</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/sass</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/行列</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/サーバ</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/JavaScript</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/PHP</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/無料WEBサービス</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/数学</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Coursera</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/RubyOnRails</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/raspberrypi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Ruby</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/機械学習</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/cloud9</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/プロシージャ</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Access</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/電波</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/NPO</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/傾き</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Heroku</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/MySQL</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/Laravel</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/tinker</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/積分</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/git</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/tags/webgl</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
