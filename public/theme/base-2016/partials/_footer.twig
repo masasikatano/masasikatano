@@ -13,16 +13,32 @@
     {{ widgets('footer') }}
 
 </footer>
-
-<script src="{{ paths.theme }}js/jquery.min.js"></script>
-<script src="{{ paths.theme }}js/foundation.js"></script>
-<script src="{{ paths.theme }}js/app.js"></script>
-
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-81810435-1', 'auto');
-  ga('send', 'pageview');
+  	var cb = function() {
+  	var l = document.createElement('link'); l.rel = 'stylesheet';
+  	l.href = '{{ paths.theme }}css/foundation.css';
+  	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  	};
+  	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+  	if (raf) raf(cb);
+  	else window.addEventListener('load', cb);
+</script>
+<script src="{{ paths.theme }}js/jquery.min.js" async></script>
+<script src="{{ paths.theme }}js/foundation.js" async></script>
+<script src="{{ paths.theme }}js/app.js" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
+<script>
+    WebFont.load({
+      google: {
+        families: ['Noto Sans']
+      }
+    });
+</script>
+<script async>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-81810435-1', 'auto');
+    ga('send', 'pageview');
 </script>
