@@ -191,7 +191,7 @@ changelog:
 thumbnails:
     default_thumbnail: [ 160, 120 ]
     default_image: [ 1000, 750 ]
-    quality: 80
+    quality: 10
     cropping: crop
     notfound_image: view/img/default_notfound.png
     error_image: view/img/default_error.png
