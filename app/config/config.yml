@@ -195,7 +195,7 @@ thumbnails:
     cropping: crop
     notfound_image: view/img/default_notfound.png
     error_image: view/img/default_error.png
-    save_files: false
+    save_files: true
     allow_upscale: false
     exif_orientation: true
 #    browser_cache_time: 2592000
@@ -251,13 +251,13 @@ accept_file_types: [ twig, html, js, css, scss, gif, jpg, jpeg, png, ico, zip, t
 # the debugbar is only shown to logged-in users. Use the 'debug_show_loggedoff'
 # option to show it to all users. You probably do not want to use this in a
 # production environment.
-debug: true
+debug: false
 developer_notices: false
 debug_show_loggedoff: false
 debug_permission_audit_mode: false
-debug_error_level: 8181 # equivalent to E_ALL &~ E_NOTICE &~ E_DEPRECATED &~ E_USER_DEPRECATED &~ E_WARNING
+debug_error_level: 0 # equivalent to E_ALL &~ E_NOTICE &~ E_DEPRECATED &~ E_USER_DEPRECATED &~ E_WARNING
 # debug_error_level: 30719 # equivalent to E_ALL
-debug_enable_whoops: true # change this to false to use PHP's built-in error handling instead of Whoops
+debug_enable_whoops: false # change this to false to use PHP's built-in error handling instead of Whoops
 
 # System debug logging
 # This will enable intensive logging of Silex functions and will be very hard on
