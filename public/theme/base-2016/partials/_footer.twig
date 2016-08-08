@@ -16,16 +16,16 @@
 <script>
   	var cb = function() {
   	var l = document.createElement('link'); l.rel = 'stylesheet';
-  	l.href = '{{ paths.theme }}css/foundation.css';
+  	l.href = 'http://file.cdn.tokyo/cdn/masasikatano/min/foundation.css';
   	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
   	};
   	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
   	if (raf) raf(cb);
   	else window.addEventListener('load', cb);
 </script>
-<script src="{{ paths.theme }}js/jquery.min.js" async></script>
-<script src="{{ paths.theme }}js/foundation.js" async></script>
-<script src="{{ paths.theme }}js/app.js" async></script>
+<script src="http://file.cdn.tokyo/cdn/masasikatano/min/jquery.min_.js" async></script>
+<script src="http://file.cdn.tokyo/cdn/masasikatano/min/foundation.min_.js" async></script>
+<script src="http://file.cdn.tokyo/cdn/masasikatano/min/app.js" async></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
 <script>
     WebFont.load({
