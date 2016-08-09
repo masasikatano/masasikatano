@@ -2,6 +2,10 @@
 
 /* thems.css */
 
+body {
+  font-family: "PT Sans", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic" !important;
+}
+
 .headerphoto {
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,9 +73,8 @@ code {
 }
 
 div.code {
-  font-family: Consolas,"courier new";
   font-size: 18px;
-  margin: 1em 0 3em 1em;
+  margin: 2em 0 2em 1em;
   line-height: 1.4;
   width: auto;
   background-color: #EFEAE6;

@@ -13,6 +13,7 @@
     {{ widgets('footer') }}
 
 </footer>
+
 <script>
   	var cb = function() {
   	var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -23,14 +24,16 @@
   	if (raf) raf(cb);
   	else window.addEventListener('load', cb);
 </script>
-<script src="{{ paths.theme }}js/jquery.min.js" async></script>
+
+<script src="{{ paths.theme }}js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
 <script src="{{ paths.theme }}js/foundation.js" async></script>
 <script src="{{ paths.theme }}js/app.js" async></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js" async></script>
-<script>
+<script async>
     WebFont.load({
       google: {
-        families: ['Noto Sans']
+        families: ['PT Sans']
       }
     });
 </script>
