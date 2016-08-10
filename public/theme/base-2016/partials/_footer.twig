@@ -14,7 +14,7 @@
 
 </footer>
 
-<script>
+<script async>
   	var cb = function() {
   	var l = document.createElement('link'); l.rel = 'stylesheet';
   	l.href = '{{ paths.theme }}css/foundation.css';
@@ -25,11 +25,10 @@
   	else window.addEventListener('load', cb);
 </script>
 
-<script src="{{ paths.theme }}js/jquery.min.js"></script>
+{#<script src="{{ paths.theme }}js/jquery.min.js"></script>#}
+{#<script src="{{ paths.theme }}js/foundation.js"></script>#}
+{#<script src="{{ paths.theme }}js/app.js"></script>#}
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-
-<script src="{{ paths.theme }}js/foundation.js" async></script>
-<script src="{{ paths.theme }}js/app.js" async></script>
 <script async>
     WebFont.load({
       google: {
