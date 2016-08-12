@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>https://masasikatano.link/page/cloud9-mysql</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://masasikatano.link/page/raspberry-pi-apache-multi-domain</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://masasikatano.link/page/web-server-alive-monitoring</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
