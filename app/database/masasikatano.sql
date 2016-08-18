@@ -75,7 +75,7 @@ CREATE TABLE `bolt_blocks` (
   KEY `IDX_7B2C81B7A5131421` (`datepublish`),
   KEY `IDX_7B2C81B7B7805520` (`datedepublish`),
   KEY `IDX_7B2C81B77B00651C` (`status`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -475,4 +475,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-16 13:44:53
+-- Dump completed on 2016-08-18 13:07:32
