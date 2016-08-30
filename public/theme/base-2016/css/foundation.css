@@ -217,3 +217,9 @@ dd{
   margin : 1em 2em 2em 0;    
   padding-left : 2em;
 }
+
+div.adsense {
+  margin: 0 auto;
+  padding: 10px 0; 
+  text-align:center;
+}
