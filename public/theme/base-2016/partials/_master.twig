@@ -12,8 +12,7 @@
             {%- if record.title is defined %}{{ record.title|striptags }} | {% endif -%}
                 {{ app.config.get('general/sitename') -}}
             {% if record.title is not defined and app.config.get('general/payoff') %} | {{ app.config.get('general/payoff') }}{% endif -%}
-        </title>
-        
+        </title> 
         {% block headincludes %}
         {% endblock headincludes %}
         <meta name="p:domain_verify" content="c70be58aaaf7dee22b7f9d775c49c0cc"/>
