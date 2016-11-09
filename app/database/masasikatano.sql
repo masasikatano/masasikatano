@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.5.53, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: masasikatano
+-- Host: 0.0.0.0    Database: masasikatano
 -- ------------------------------------------------------
 -- Server version	5.5.53-0ubuntu0.14.04.1
 
@@ -475,4 +475,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-09  4:32:04
+-- Dump completed on 2016-11-09  4:32:42
