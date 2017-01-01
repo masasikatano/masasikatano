@@ -4,6 +4,7 @@ namespace Bolt\Thumbs\Tests;
 use Bolt\Filesystem;
 use Bolt\Filesystem\Adapter\Local;
 use Bolt\Filesystem\Handler\Image;
+use Bolt\Thumbs\Creator;
 use Bolt\Thumbs\CreatorInterface;
 use Bolt\Thumbs\FinderInterface;
 use Bolt\Thumbs\Responder;
@@ -70,7 +71,7 @@ class ResponderTest extends \PHPUnit_Framework_TestCase
 
     public function testCaching()
     {
-        $this->creator = $this->getMock('\Bolt\Thumbs\CreatorInterface');
+        $this->creator = $this->getMockBuilder(Creator::class)->getMock();
         $this->creator->expects($this->once())
             ->method('create')
             ->willReturnCallback(
@@ -124,6 +125,7 @@ class CreatorTester implements CreatorInterface
     public function create(Transaction $transaction)
     {
         $this->transaction = $transaction;
+
         return $transaction->getHash();
     }
 }

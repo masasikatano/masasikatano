@@ -283,6 +283,7 @@ To enable the swap you can use for example:
 /sbin/mkswap /var/swap.1
 /sbin/swapon /var/swap.1
 ```
+You can make a permanent swap file following this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04).
 
 ## Degraded Mode
 
@@ -360,8 +361,8 @@ for everyone.
 ## Composer hangs with SSH ControlMaster
 
 When you try to install packages from a Git repository and you use the `ControlMaster`
-setting for you SSH connection  Composer might just hang endlessly and you see a `sh`
-process in the `defunct` state in your process list
+setting for your SSH connection, Composer might just hang endlessly and you see a `sh`
+process in the `defunct` state in your process list.
 
 The reason for this is a SSH Bug: https://bugzilla.mindrot.org/show_bug.cgi?id=1988
 

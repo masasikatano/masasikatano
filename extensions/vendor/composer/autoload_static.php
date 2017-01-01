@@ -25,20 +25,11 @@ class ComposerStaticInitc50ef6709f207dbbe457819757dc5a64
         ),
     );
 
-    public static $classMap = array (
-        'Bolt\\Composer\\EventListener\\BufferIOListener' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/BufferIOListener.php',
-        'Bolt\\Composer\\EventListener\\PackageDescriptor' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageDescriptor.php',
-        'Bolt\\Composer\\EventListener\\PackageEventListener' => __DIR__ . '/../..' . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageEventListener.php',
-        'Bolt\\Extension\\Jadwigo\\TaxonomyList\\TaxonomyListExtension' => __DIR__ . '/..' . '/jadwigo/taxonomylist/src/TaxonomyListExtension.php',
-        'Bolt\\Extension\\Jadwigo\\TaxonomyList\\Twig\\TaxonomyListExtension' => __DIR__ . '/..' . '/jadwigo/taxonomylist/src/Twig/TaxonomyListExtension.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitc50ef6709f207dbbe457819757dc5a64::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitc50ef6709f207dbbe457819757dc5a64::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc50ef6709f207dbbe457819757dc5a64::$classMap;
 
         }, null, ClassLoader::class);
     }

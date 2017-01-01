@@ -6,9 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Bolt\\Composer\\EventListener\\BufferIOListener' => $baseDir . '/../vendor/bolt/bolt/src/Composer/EventListener/BufferIOListener.php',
-    'Bolt\\Composer\\EventListener\\PackageDescriptor' => $baseDir . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageDescriptor.php',
-    'Bolt\\Composer\\EventListener\\PackageEventListener' => $baseDir . '/../vendor/bolt/bolt/src/Composer/EventListener/PackageEventListener.php',
-    'Bolt\\Extension\\Jadwigo\\TaxonomyList\\TaxonomyListExtension' => $vendorDir . '/jadwigo/taxonomylist/src/TaxonomyListExtension.php',
-    'Bolt\\Extension\\Jadwigo\\TaxonomyList\\Twig\\TaxonomyListExtension' => $vendorDir . '/jadwigo/taxonomylist/src/Twig/TaxonomyListExtension.php',
 );

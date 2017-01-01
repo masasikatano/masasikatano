@@ -11,7 +11,6 @@ return array(
     'Silex\\Provider\\' => array($vendorDir . '/silex/web-profiler'),
     'SecurityLib' => array($vendorDir . '/ircmaxell/security-lib/lib'),
     'RandomLib' => array($vendorDir . '/ircmaxell/random-lib/lib'),
-    'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'PasswordLib' => array($vendorDir . '/passwordlib/passwordlib/lib'),
     'ParsedownExtra' => array($vendorDir . '/erusev/parsedown-extra'),
