@@ -1,8 +1,5 @@
 {# This file is inserted as the 'footer' of each listed record. #}<p 1
 class="meta">
-    {% if record.editlink() %}
-        <span class="edit-link"><a href="{{ record.editlink() }}"><strong>Edit</strong></a></span> -
-    {% endif %}
     {{ __('general.phrase.written-by-on', {
         '%name%': record.user.displayname|default(__('Unknown')),
         '%date%': record.datepublish|localdate("%A %B %e, %Y")
