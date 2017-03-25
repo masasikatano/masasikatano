@@ -13,7 +13,7 @@ database:
     password: 696d7a09
 
 # The name of the website
-sitename: masasikatano.link
+sitename: masasikatano
 payoff: プログラマ + エンジニアの片野真志 ( masasikatano ) です。
 
 # The theme to use. Be sure to copy the {theme_path}/base-2016 folder, and
