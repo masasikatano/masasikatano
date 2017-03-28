@@ -7,14 +7,14 @@
 # If you're trying out Bolt, just keep it set to SQLite for now.
 database:
     driver: mysql
-    host: localhost
-    databasename: masasikatano
-    username: root
-    password: masa1234
-    # host: us-cdbr-iron-east-03.cleardb.net
-    # databasename: heroku_28b17a9b7f42330
-    # username: b3eb0646501202
-    # password: 696d7a09
+    # host: localhost #local
+    # databasename: masasikatano #local
+    # username: root #local
+    # password: masa1234 #local
+    host: us-cdbr-iron-east-03.cleardb.net
+    databasename: heroku_28b17a9b7f42330
+    username: b3eb0646501202
+    password: 696d7a09
 
 # The name of the website
 sitename: masasikatano
