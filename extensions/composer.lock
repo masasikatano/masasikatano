@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c9d705b72c99df71f193e9263cb4e358",
+    "content-hash": "3f2300c2103190f0b09f7d91ed375e8b",
+    "packages": [
+        {
+            "name": "jadwigo/taxonomylist",
+            "version": "v3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jadwigo/TaxonomyList.git",
+                "reference": "140e87ddca448bc4c25e2e2606ef414798bd3662"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jadwigo/TaxonomyList/zipball/140e87ddca448bc4c25e2e2606ef414798bd3662",
+                "reference": "140e87ddca448bc4c25e2e2606ef414798bd3662",
+                "shasum": ""
+            },
+            "require": {
+                "bolt/bolt": "^3.0"
+            },
+            "type": "bolt-extension",
+            "extra": {
+                "bolt-class": "Bolt\\Extension\\Jadwigo\\TaxonomyList\\TaxonomyListExtension"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bolt\\Extension\\Jadwigo\\TaxonomyList\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Lodewijk Evers",
+                    "email": "lodewijk@twokings.nl",
+                    "homepage": "https://github.com/jadwigo"
+                }
+            ],
+            "description": "An extension that adds a twig tag for Taxonomy Listings.",
+            "keywords": [
+                "categories",
+                "category",
+                "listing",
+                "tagcloud",
+                "tagclouds",
+                "tags",
+                "taxonomy"
+            ],
+            "support": {
+                "source": "https://github.com/jadwigo/TaxonomyList/tree/v3.x",
+                "issues": "https://github.com/jadwigo/TaxonomyList/issues"
+            },
+            "time": "2016-05-25 08:20:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

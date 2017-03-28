@@ -1,5 +1,4 @@
 app/cache/
-extensions/
 vendor/
 update.sh
 upload.sh
