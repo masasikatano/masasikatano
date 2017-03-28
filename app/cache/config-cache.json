@@ -1,0 +1,984 @@
+{
+    "general": {
+        "database": {
+            "driver": "pdo_mysql",
+            "host": "us-cdbr-iron-east-03.cleardb.net",
+            "slaves": [],
+            "dbname": "heroku_28b17a9b7f42330",
+            "prefix": "bolt_",
+            "charset": "utf8",
+            "collate": "utf8_unicode_ci",
+            "randomfunction": "RAND()",
+            "databasename": "heroku_28b17a9b7f42330",
+            "username": "b3eb0646501202",
+            "password": "696d7a09",
+            "user": "b3eb0646501202",
+            "wrapperClass": "\\Bolt\\Storage\\Database\\Connection"
+        },
+        "sitename": "masasikatano",
+        "locale": "ja_JP",
+        "recordsperpage": 10,
+        "recordsperdashboardwidget": 5,
+        "systemlog": {
+            "enabled": true
+        },
+        "changelog": {
+            "enabled": false
+        },
+        "debuglog": {
+            "enabled": false,
+            "level": "DEBUG",
+            "filename": "bolt-debug.log"
+        },
+        "debug": false,
+        "debug_show_loggedoff": false,
+        "debug_error_level": 0,
+        "production_error_level": null,
+        "debug_enable_whoops": false,
+        "debug_error_use_symfony": false,
+        "debug_permission_audit_mode": false,
+        "strict_variables": false,
+        "theme": "base-2016",
+        "listing_template": "listing.twig",
+        "listing_records": 6,
+        "listing_sort": "datepublish DESC",
+        "caching": {
+            "config": true,
+            "templates": true,
+            "request": false,
+            "duration": 10,
+            "authenticated": false,
+            "thumbnails": true
+        },
+        "wysiwyg": {
+            "images": false,
+            "tables": false,
+            "fontcolor": false,
+            "align": false,
+            "subsuper": false,
+            "embed": false,
+            "anchor": false,
+            "underline": false,
+            "strike": false,
+            "blockquote": false,
+            "codesnippet": false,
+            "specialchar": false,
+            "styles": false,
+            "ck": {
+                "autoParagraph": true,
+                "contentsCss": [
+                    "/bolt-public/view/css/ckeditor-contents.css",
+                    "/bolt-public/view/css/ckeditor.css"
+                ],
+                "filebrowserWindowWidth": 640,
+                "filebrowserWindowHeight": 480,
+                "disableNativeSpellChecker": true,
+                "allowNbsp": false
+            },
+            "filebrowser": {
+                "browseUrl": "/async/recordbrowser/",
+                "imageBrowseUrl": "/bolt/files/files/"
+            },
+            "ruler": false
+        },
+        "liveeditor": false,
+        "canonical": null,
+        "cookies_use_remoteaddr": true,
+        "cookies_use_browseragent": false,
+        "cookies_use_httphost": true,
+        "cookies_lifetime": 1209600,
+        "enforce_ssl": false,
+        "thumbnails": {
+            "default_thumbnail": [
+                160,
+                120
+            ],
+            "default_image": [
+                1000,
+                750
+            ],
+            "quality": 10,
+            "cropping": "crop",
+            "notfound_image": "view/img/default_notfound.png",
+            "error_image": "view/img/default_error.png",
+            "only_aliases": false,
+            "save_files": true,
+            "allow_upscale": false,
+            "exif_orientation": true
+        },
+        "accept_file_types": [
+            "twig",
+            "html",
+            "js",
+            "css",
+            "scss",
+            "gif",
+            "jpg",
+            "jpeg",
+            "png",
+            "ico",
+            "zip",
+            "tgz",
+            "txt",
+            "md",
+            "doc",
+            "docx",
+            "pdf",
+            "epub",
+            "xls",
+            "xlsx",
+            "ppt",
+            "pptx",
+            "mp3",
+            "ogg",
+            "wav",
+            "m4a",
+            "mp4",
+            "m4v",
+            "ogv",
+            "wmv",
+            "avi",
+            "webm",
+            "svg"
+        ],
+        "hash_strength": 10,
+        "branding": {
+            "name": "Bolt",
+            "path": "/bolt",
+            "provided_by": [],
+            "provided_link": ""
+        },
+        "maintenance_mode": false,
+        "headers": {
+            "x_frame_options": true
+        },
+        "htmlcleaner": {
+            "allowed_tags": [
+                "div",
+                "p",
+                "br",
+                "hr",
+                "s",
+                "u",
+                "strong",
+                "em",
+                "i",
+                "b",
+                "li",
+                "ul",
+                "ol",
+                "blockquote",
+                "pre",
+                "code",
+                "tt",
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "dd",
+                "dl",
+                "dh",
+                "table",
+                "tbody",
+                "thead",
+                "tfoot",
+                "th",
+                "td",
+                "tr",
+                "a",
+                "img",
+                "a",
+                "img",
+                "address",
+                "abbr",
+                "iframe"
+            ],
+            "allowed_attributes": [
+                "id",
+                "class",
+                "style",
+                "name",
+                "value",
+                "href",
+                "src",
+                "alt",
+                "title",
+                "width",
+                "height",
+                "frameborder",
+                "allowfullscreen",
+                "scrolling"
+            ]
+        },
+        "performance": {
+            "http_cache": {
+                "options": []
+            }
+        },
+        "payoff": "プログラマ + エンジニアの片野真志 ( masasikatano ) です。",
+        "timezone": "Asia/Tokyo",
+        "maintenance_template": "maintenance_default.twig",
+        "cron_hour": 3,
+        "homepage": "page/1",
+        "homepage_template": "index.twig",
+        "notfound": "block/404-not-found",
+        "record_template": "record.twig",
+        "taxonomy_sort": "DESC",
+        "search_results_template": "search.twig",
+        "search_results_records": 10,
+        "add_jquery": false,
+        "developer_notices": false,
+        "cookies_domain": null,
+        "extensions": {
+            "site": "https://extensions.bolt.cm/",
+            "stability": "stable",
+            "enabled": true
+        }
+    },
+    "taxonomy": {
+        "tags": {
+            "slug": "tags",
+            "singular_slug": "tag",
+            "behaves_like": "tags",
+            "postfix": "Add some freeform tags. Start a new tag by typing a comma or space.",
+            "allow_spaces": false,
+            "name": "Tags",
+            "singular_name": "Tag",
+            "has_sortorder": false,
+            "tagcloud": true
+        }
+    },
+    "contenttypes": {
+        "pages": {
+            "name": "Pages",
+            "singular_name": "Page",
+            "fields": {
+                "title": {
+                    "class": "large",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "text"
+                },
+                "slug": {
+                    "class": "",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "slug",
+                    "uses": [
+                        "title"
+                    ]
+                },
+                "image": {
+                    "class": "",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "image",
+                    "extensions": {
+                        "1": "gif",
+                        "2": "jpeg",
+                        "3": "png",
+                        "17": "ico",
+                        "101": "svg",
+                        "102": "jpg"
+                    }
+                },
+                "teaser": {
+                    "class": "",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "html",
+                    "height": "150px"
+                },
+                "body": {
+                    "class": "",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "html",
+                    "height": "300px"
+                },
+                "template": {
+                    "class": "",
+                    "default": "",
+                    "group": "content",
+                    "label": "",
+                    "variant": "",
+                    "type": "templateselect",
+                    "filter": "*.twig"
+                }
+            },
+            "taxonomy": [
+                "tags"
+            ],
+            "recordsperpage": 100,
+            "slug": "pages",
+            "singular_slug": "page",
+            "show_on_dashboard": true,
+            "show_in_menu": true,
+            "sort": false,
+            "default_status": "draft",
+            "viewless": false,
+            "liveeditor": false,
+            "tablename": "pages",
+            "allow_numeric_slugs": false,
+            "groups": [
+                "content"
+            ],
+            "templatefields": {
+                "extrafields.twig": {
+                    "fields": {
+                        "section_1": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "Section 1",
+                            "variant": "",
+                            "type": "text"
+                        },
+                        "section_2": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "Section 2",
+                            "variant": "",
+                            "type": "html"
+                        },
+                        "image": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "",
+                            "variant": "",
+                            "type": "image",
+                            "extensions": {
+                                "1": "gif",
+                                "2": "jpeg",
+                                "3": "png",
+                                "17": "ico",
+                                "101": "svg",
+                                "102": "jpg"
+                            }
+                        }
+                    },
+                    "singular_name": "Template Fields extrafields.twig",
+                    "slug": "extrafields-twig",
+                    "name": "Extrafields Twig",
+                    "singular_slug": "template-fields-extrafields-twig",
+                    "show_on_dashboard": true,
+                    "show_in_menu": true,
+                    "sort": false,
+                    "default_status": "draft",
+                    "viewless": false,
+                    "liveeditor": false,
+                    "tablename": "extrafields_twig",
+                    "allow_numeric_slugs": false,
+                    "groups": []
+                },
+                "anotherextrafields.twig": {
+                    "fields": {
+                        "markdown": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "A markdown field",
+                            "variant": "",
+                            "type": "markdown"
+                        },
+                        "geolocation": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "A geolocation field",
+                            "variant": "",
+                            "type": "geolocation"
+                        },
+                        "image": {
+                            "class": "",
+                            "default": "",
+                            "group": "ungrouped",
+                            "label": "",
+                            "variant": "",
+                            "type": "image",
+                            "extensions": {
+                                "1": "gif",
+                                "2": "jpeg",
+                                "3": "png",
+                                "17": "ico",
+                                "101": "svg",
+                                "102": "jpg"
+                            }
+                        }
+                    },
+                    "singular_name": "Template Fields anotherextrafields.twig",
+                    "slug": "anotherextrafields-twig",
+                    "name": "Anotherextrafields Twig",
+                    "singular_slug": "template-fields-anotherextrafields-twig",
+                    "show_on_dashboard": true,
+                    "show_in_menu": true,
+                    "sort": false,
+                    "default_status": "draft",
+                    "viewless": false,
+                    "liveeditor": false,
+                    "tablename": "anotherextrafields_twig",
+                    "allow_numeric_slugs": false,
+                    "groups": []
+                }
+            }
+        },
+        "showcases": {
+            "name": "Showcases",
+            "slug": "showcases",
+            "singular_name": "Showcase",
+            "singular_slug": "showcase",
+            "fields": {
+                "title": {
+                    "class": "large",
+                    "default": "",
+                    "group": "Text",
+                    "label": "",
+                    "variant": "",
+                    "type": "text",
+                    "required": true,
+                    "pattern": ".{2,255}",
+                    "error": "The Title field is required, and must contain at least 2 characters"
+                },
+                "slug": {
+                    "class": "",
+                    "default": "",
+                    "group": "Text",
+                    "label": "",
+                    "variant": "",
+                    "type": "slug",
+                    "uses": [
+                        "title"
+                    ]
+                },
+                "html": {
+                    "class": "",
+                    "default": "",
+                    "group": "Text",
+                    "label": "",
+                    "variant": "",
+                    "type": "html",
+                    "height": "150px"
+                }
+            },
+            "show_on_dashboard": true,
+            "show_in_menu": true,
+            "sort": false,
+            "default_status": "draft",
+            "viewless": false,
+            "liveeditor": false,
+            "tablename": "showcases",
+            "allow_numeric_slugs": false,
+            "groups": [
+                "Text"
+            ]
+        },
+        "blocks": {
+            "name": "Blocks",
+            "singular_name": "Block",
+            "fields": {
+                "title": {
+                    "class": "large",
+                    "default": "",
+                    "group": "Block",
+                    "label": "",
+                    "variant": "",
+                    "type": "text"
+                },
+                "slug": {
+                    "class": "",
+                    "default": "",
+                    "group": "Block",
+                    "label": "",
+                    "variant": "",
+                    "type": "slug",
+                    "uses": [
+                        "title"
+                    ]
+                },
+                "content": {
+                    "class": "",
+                    "default": "",
+                    "group": "Block",
+                    "label": "",
+                    "variant": "",
+                    "type": "html",
+                    "height": "150px"
+                },
+                "contentlink": {
+                    "class": "",
+                    "default": "",
+                    "group": "Block",
+                    "label": "Link",
+                    "variant": "",
+                    "type": "text",
+                    "placeholder": "contenttype/slug or http://example.org/",
+                    "postfix": "Use this to add a link for this Block. This could either be an 'internal' link like <tt>page/about</tt>, if you use a contenttype/slug combination. Otherwise use a proper URL, like `http://example.org`."
+                },
+                "image": {
+                    "class": "",
+                    "default": "",
+                    "group": "Block",
+                    "label": "",
+                    "variant": "",
+                    "type": "image",
+                    "attrib": "title",
+                    "extensions": [
+                        "gif",
+                        "jpg",
+                        "png"
+                    ]
+                }
+            },
+            "show_on_dashboard": true,
+            "viewless": true,
+            "default_status": "publish",
+            "searchable": false,
+            "icon_many": "fa:cubes",
+            "icon_one": "fa:cube",
+            "slug": "blocks",
+            "singular_slug": "block",
+            "show_in_menu": true,
+            "sort": false,
+            "liveeditor": false,
+            "tablename": "blocks",
+            "allow_numeric_slugs": false,
+            "groups": [
+                "Block"
+            ]
+        }
+    },
+    "menu": {
+        "main": [
+            {
+                "label": "home",
+                "path": "homepage"
+            },
+            {
+                "label": "link",
+                "path": "showcases/link"
+            }
+        ]
+    },
+    "routing": {
+        "homepage": {
+            "path": "/",
+            "defaults": {
+                "_controller": "controller.frontend:listing",
+                "contenttypeslug": "page",
+                "requirements": null
+            }
+        },
+        "search": {
+            "path": "/search",
+            "defaults": {
+                "_controller": "controller.frontend:search"
+            }
+        },
+        "preview": {
+            "path": "/preview/{contenttypeslug}",
+            "defaults": {
+                "_controller": "controller.frontend:preview"
+            },
+            "requirements": {
+                "contenttypeslug": "controller.requirement:anyContentType"
+            }
+        },
+        "contentlink": {
+            "path": "/{contenttypeslug}/{slug}",
+            "defaults": {
+                "_controller": "controller.frontend:record"
+            },
+            "requirements": {
+                "contenttypeslug": "controller.requirement:anyContentType"
+            }
+        },
+        "taxonomylink": {
+            "path": "/{taxonomytype}/{slug}",
+            "defaults": {
+                "_controller": "controller.frontend:taxonomy"
+            },
+            "requirements": {
+                "taxonomytype": "controller.requirement:anyTaxonomyType"
+            }
+        },
+        "contentlisting": {
+            "path": "/{contenttypeslug}",
+            "defaults": {
+                "_controller": "controller.frontend:listing"
+            },
+            "requirements": {
+                "contenttypeslug": "controller.requirement:pluralContentTypes"
+            }
+        },
+        "link": {
+            "path": "/blocks/about",
+            "defaults": {
+                "_controller": "controller.frontend:listing",
+                "contenttypeslug": "blocks",
+                "slug": "link"
+            }
+        }
+    },
+    "permissions": {
+        "roles": {
+            "editor": {
+                "description": "This user can edit some content.",
+                "label": "Editor"
+            },
+            "chief-editor": {
+                "description": "This user can edit any content in the system.",
+                "label": "Chief Editor"
+            },
+            "admin": {
+                "description": "User-level administrator.",
+                "label": "Administrator"
+            },
+            "developer": {
+                "description": "Developer access. Only required to change system-level settings.",
+                "label": "Developer"
+            },
+            "guest": {
+                "description": "This user can log on, but is not allowed to edit any content.",
+                "label": "Guest Editor"
+            }
+        },
+        "roles-hierarchy": {
+            "manipulate": {
+                "admin": [],
+                "developer": [
+                    "admin"
+                ],
+                "chief-editor": [
+                    "admin",
+                    "developer"
+                ],
+                "editor": [
+                    "admin",
+                    "developer",
+                    "chief-editor"
+                ],
+                "guest": [
+                    "admin",
+                    "developer",
+                    "chief-editor"
+                ]
+            }
+        },
+        "global": {
+            "about": [
+                "everyone"
+            ],
+            "clearcache": [
+                "admin",
+                "developer"
+            ],
+            "contentaction": [
+                "editor",
+                "admin",
+                "developer"
+            ],
+            "dashboard": [
+                "everyone"
+            ],
+            "dbcheck": [
+                "admin",
+                "developer"
+            ],
+            "dbupdate": [
+                "admin",
+                "developer"
+            ],
+            "dbupdate_result": [
+                "admin",
+                "developer"
+            ],
+            "extensions": [
+                "developer"
+            ],
+            "extensions:config": [
+                "developer"
+            ],
+            "fileedit": [
+                "admin",
+                "developer"
+            ],
+            "files:config": [
+                "developer"
+            ],
+            "files:theme": [
+                "developer"
+            ],
+            "files:uploads": [
+                "admin",
+                "developer",
+                "chief-editor",
+                "editor"
+            ],
+            "files": [
+                "admin",
+                "developer",
+                "chief-editor",
+                "editor"
+            ],
+            "prefill": [
+                "developer"
+            ],
+            "profile": [
+                "everyone"
+            ],
+            "settings": [
+                "admin",
+                "developer",
+                "everyone"
+            ],
+            "translation": [
+                "developer"
+            ],
+            "useraction": [
+                "admin",
+                "developer"
+            ],
+            "useredit": [
+                "admin",
+                "developer"
+            ],
+            "users": [
+                "admin",
+                "developer"
+            ],
+            "roles": [
+                "admin",
+                "developer"
+            ],
+            "maintenance-mode": [
+                "everyone"
+            ],
+            "omnisearch": [
+                "everyone"
+            ],
+            "changelog": [
+                "admin",
+                "developer",
+                "chief-editor"
+            ],
+            "systemlog": [
+                "admin",
+                "developer"
+            ],
+            "login": [
+                "anonymous"
+            ],
+            "postLogin": [
+                "anonymous"
+            ],
+            "logout": [
+                "everyone"
+            ]
+        },
+        "contenttype-all": {
+            "edit": [
+                "developer",
+                "admin",
+                "chief-editor"
+            ],
+            "create": [
+                "developer",
+                "admin",
+                "chief-editor"
+            ],
+            "publish": [
+                "developer",
+                "admin",
+                "chief-editor"
+            ],
+            "depublish": [
+                "developer",
+                "admin",
+                "chief-editor"
+            ],
+            "delete": [
+                "developer",
+                "admin"
+            ],
+            "change-ownership": [
+                "developer",
+                "admin"
+            ]
+        },
+        "contenttype-default": {
+            "edit": [
+                "editor"
+            ],
+            "create": [
+                "editor"
+            ],
+            "change-ownership": [
+                "owner"
+            ],
+            "view": [
+                "anonymous"
+            ]
+        },
+        "contenttypes": null
+    },
+    "extensions": [],
+    "theme": {
+        "layout": {
+            "aside": "right",
+            "aside_width": 4,
+            "main_width": 8,
+            "variant": "centered"
+        },
+        "headerimage": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg",
+            "08.jpg",
+            "09.jpg"
+        ],
+        "logoimage": [
+            "logo00.png",
+            "logo01.png",
+            "logo02.png",
+            "logo03.png",
+            "logo04.png",
+            "logo05.png",
+            "logo06.png"
+        ],
+        "homepage_template": "index.twig",
+        "record_template": "record.twig",
+        "listing_template": "listing.twig",
+        "search_results_template": "search.twig",
+        "notfound": "notfound.twig",
+        "templatefields": {
+            "extrafields.twig": {
+                "fields": {
+                    "section_1": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "Section 1",
+                        "variant": "",
+                        "type": "text"
+                    },
+                    "section_2": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "Section 2",
+                        "variant": "",
+                        "type": "html"
+                    },
+                    "image": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "",
+                        "variant": "",
+                        "type": "image",
+                        "extensions": {
+                            "1": "gif",
+                            "2": "jpeg",
+                            "3": "png",
+                            "17": "ico",
+                            "101": "svg",
+                            "102": "jpg"
+                        }
+                    }
+                },
+                "singular_name": "Template Fields extrafields.twig",
+                "slug": "extrafields-twig",
+                "name": "Extrafields Twig",
+                "singular_slug": "template-fields-extrafields-twig",
+                "show_on_dashboard": true,
+                "show_in_menu": true,
+                "sort": false,
+                "default_status": "draft",
+                "viewless": false,
+                "liveeditor": false,
+                "tablename": "extrafields_twig",
+                "allow_numeric_slugs": false,
+                "groups": []
+            },
+            "anotherextrafields.twig": {
+                "fields": {
+                    "markdown": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "A markdown field",
+                        "variant": "",
+                        "type": "markdown"
+                    },
+                    "geolocation": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "A geolocation field",
+                        "variant": "",
+                        "type": "geolocation"
+                    },
+                    "image": {
+                        "class": "",
+                        "default": "",
+                        "group": "ungrouped",
+                        "label": "",
+                        "variant": "",
+                        "type": "image",
+                        "extensions": {
+                            "1": "gif",
+                            "2": "jpeg",
+                            "3": "png",
+                            "17": "ico",
+                            "101": "svg",
+                            "102": "jpg"
+                        }
+                    }
+                },
+                "singular_name": "Template Fields anotherextrafields.twig",
+                "slug": "anotherextrafields-twig",
+                "name": "Anotherextrafields Twig",
+                "singular_slug": "template-fields-anotherextrafields-twig",
+                "show_on_dashboard": true,
+                "show_in_menu": true,
+                "sort": false,
+                "default_status": "draft",
+                "viewless": false,
+                "liveeditor": false,
+                "tablename": "anotherextrafields_twig",
+                "allow_numeric_slugs": false,
+                "groups": []
+            }
+        },
+        "templateselect": {
+            "templates": [
+                {
+                    "name": "Template with extra fields",
+                    "filename": "extrafields.twig"
+                },
+                {
+                    "name": "Another template with extra fields",
+                    "filename": "anotherextrafields.twig"
+                }
+            ]
+        }
+    }
+}
