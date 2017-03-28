@@ -1,6 +1,0 @@
-# taxonomylist settings
-
-template: taxonomylist.twig
-
-default_taxonomy: tags
-route_path: /taxonomies
