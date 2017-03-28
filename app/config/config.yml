@@ -7,10 +7,14 @@
 # If you're trying out Bolt, just keep it set to SQLite for now.
 database:
     driver: mysql
-    host: us-cdbr-iron-east-03.cleardb.net
-    databasename: heroku_28b17a9b7f42330
-    username: b3eb0646501202
-    password: 696d7a09
+    host: localhost
+    databasename: masasikatano
+    username: root
+    password: masa1234
+    # host: us-cdbr-iron-east-03.cleardb.net
+    # databasename: heroku_28b17a9b7f42330
+    # username: b3eb0646501202
+    # password: 696d7a09
 
 # The name of the website
 sitename: masasikatano
@@ -32,7 +36,7 @@ theme: base-2016
 #
 # This can be done as [nl_NL, Dutch_Netherlands] when specifying multiple
 # locales, ensure the first is a standard locale.
-locale: ja_JP
+locale: en_US
 timezone: Asia/Tokyo
 
 # Set maintenance mode on or off.

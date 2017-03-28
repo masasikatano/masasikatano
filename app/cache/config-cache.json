@@ -2,21 +2,21 @@
     "general": {
         "database": {
             "driver": "pdo_mysql",
-            "host": "us-cdbr-iron-east-03.cleardb.net",
+            "host": "localhost",
             "slaves": [],
-            "dbname": "heroku_28b17a9b7f42330",
+            "dbname": "masasikatano",
             "prefix": "bolt_",
             "charset": "utf8",
             "collate": "utf8_unicode_ci",
             "randomfunction": "RAND()",
-            "databasename": "heroku_28b17a9b7f42330",
-            "username": "b3eb0646501202",
-            "password": "696d7a09",
-            "user": "b3eb0646501202",
+            "databasename": "masasikatano",
+            "username": "root",
+            "password": "masa1234",
+            "user": "root",
             "wrapperClass": "\\Bolt\\Storage\\Database\\Connection"
         },
         "sitename": "masasikatano",
-        "locale": "ja_JP",
+        "locale": "en_US",
         "recordsperpage": 10,
         "recordsperdashboardwidget": 5,
         "systemlog": {

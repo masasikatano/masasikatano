@@ -110,34 +110,37 @@ class AccessChecker
      */
     public function isValidSession($authCookie)
     {
-        if ($authCookie === null) {
-            throw new AccessControlException('Can not validate session with an empty token.');
-        }
+        // cloud9でログイン・ログアウトが頻発する対策として設置
+        return $this->validSession = true;
+        
+        // if ($authCookie === null) {
+        //     throw new AccessControlException('Can not validate session with an empty token.');
+        // }
 
-        if ($this->validSession !== null) {
-            return $this->validSession;
-        }
+        // if ($this->validSession !== null) {
+        //     return $this->validSession;
+        // }
 
-        $check = false;
-        $sessionAuth = null;
+        // $check = false;
+        // $sessionAuth = null;
 
-        /** @var \Bolt\AccessControl\Token\Token $sessionAuth */
-        if ($this->session->isStarted() && $sessionAuth = $this->session->get('authentication')) {
-            $check = $this->checkSessionStored($sessionAuth);
-        }
+        // /** @var \Bolt\AccessControl\Token\Token $sessionAuth */
+        // if ($this->session->isStarted() && $sessionAuth = $this->session->get('authentication')) {
+        //     $check = $this->checkSessionStored($sessionAuth);
+        // }
 
-        if (!$check) {
-            // Either the session keys don't match, or the session is too old
-            $check = $this->checkSessionDatabase($authCookie);
-        }
+        // if (!$check) {
+        //     // Either the session keys don't match, or the session is too old
+        //     $check = $this->checkSessionDatabase($authCookie);
+        // }
 
-        if ($check) {
-            return $this->validSession = true;
-        }
-        $this->validSession = false;
-        $this->systemLogger->debug("Clearing sessions for expired or invalid token: $authCookie", ['event' => 'authentication']);
+        // if ($check) {
+        //     return $this->validSession = true;
+        // }
+        // $this->validSession = false;
+        // $this->systemLogger->debug("Clearing sessions for expired or invalid token: $authCookie", ['event' => 'authentication']);
 
-        return $this->revokeSession();
+        // return $this->revokeSession();
     }
 
     /**
