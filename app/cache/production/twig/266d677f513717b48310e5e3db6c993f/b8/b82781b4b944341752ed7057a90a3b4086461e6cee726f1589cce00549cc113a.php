@@ -21,104 +21,28 @@ class __TwigTemplate_b3eab450e7ae7626ad8de63aaa6dc54d93c0d7b51f807ad959d200284b8
             echo "    ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["record"]) ? $context["record"] : null), "taxonomy", array()));
-            $context['loop'] = array(
-              'parent' => $context['_parent'],
-              'index0' => 0,
-              'index'  => 1,
-              'first'  => true,
-            );
-            if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof Countable)) {
-                $length = count($context['_seq']);
-                $context['loop']['revindex0'] = $length - 1;
-                $context['loop']['revindex'] = $length;
-                $context['loop']['length'] = $length;
-                $context['loop']['last'] = 1 === $length;
-            }
             foreach ($context['_seq'] as $context["type"] => $context["values"]) {
                 // line 3
-                echo "        <em>
+                echo "        <ul class=\"tags\">
         ";
                 // line 4
-                if ((twig_length_filter($this->env, $context["values"]) < 2)) {
-                    // line 5
-                    echo "            ";
-                    echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "get", array(0 => "taxonomy"), "method"), $context["type"], array(), "array"), "singular_name", array()), "html", null, true);
-                    echo ":
-        ";
-                } else {
-                    // line 7
-                    echo "            ";
-                    echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "get", array(0 => "taxonomy"), "method"), $context["type"], array(), "array"), "name", array()), "html", null, true);
-                    echo ":
-        ";
-                }
-                // line 9
-                echo "        </em>
-        ";
-                // line 10
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable($context["values"]);
-                $context['_iterated'] = false;
-                $context['loop'] = array(
-                  'parent' => $context['_parent'],
-                  'index0' => 0,
-                  'index'  => 1,
-                  'first'  => true,
-                );
-                if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof Countable)) {
-                    $length = count($context['_seq']);
-                    $context['loop']['revindex0'] = $length - 1;
-                    $context['loop']['revindex'] = $length;
-                    $context['loop']['length'] = $length;
-                    $context['loop']['last'] = 1 === $length;
-                }
                 foreach ($context['_seq'] as $context["link"] => $context["value"]) {
-                    // line 11
-                    echo "            <a href=\"";
+                    // line 5
+                    echo "            <li><a href=\"";
                     echo twig_escape_filter($this->env, $context["link"], "html", null, true);
-                    echo "\">";
+                    echo "\" >";
                     echo twig_escape_filter($this->env, $context["value"], "html", null, true);
-                    echo "</a>";
-                    if ( !$this->getAttribute($context["loop"], "last", array())) {
-                        echo ", ";
-                    }
-                    // line 12
-                    echo "        ";
-                    $context['_iterated'] = true;
-                    ++$context['loop']['index0'];
-                    ++$context['loop']['index'];
-                    $context['loop']['first'] = false;
-                    if (isset($context['loop']['length'])) {
-                        --$context['loop']['revindex0'];
-                        --$context['loop']['revindex'];
-                        $context['loop']['last'] = 0 === $context['loop']['revindex0'];
-                    }
-                }
-                if (!$context['_iterated']) {
-                    // line 13
-                    echo "            ";
-                    echo $this->env->getExtension('Bolt\Twig\TwigExtension')->trans("general.phrase.none");
-                    echo "
+                    echo "</a></li>
         ";
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['link'], $context['value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 15
-                echo "        ";
-                if ( !$this->getAttribute($context["loop"], "last", array())) {
-                    echo " - ";
-                }
-                // line 16
-                echo "    ";
-                ++$context['loop']['index0'];
-                ++$context['loop']['index'];
-                $context['loop']['first'] = false;
-                if (isset($context['loop']['length'])) {
-                    --$context['loop']['revindex0'];
-                    --$context['loop']['revindex'];
-                    $context['loop']['last'] = 0 === $context['loop']['revindex0'];
-                }
+                // line 7
+                echo "        </ul>
+    ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['type'], $context['values'], $context['_parent'], $context['loop']);
@@ -138,7 +62,7 @@ class __TwigTemplate_b3eab450e7ae7626ad8de63aaa6dc54d93c0d7b51f807ad959d200284b8
 
     public function getDebugInfo()
     {
-        return array (  113 => 16,  108 => 15,  99 => 13,  86 => 12,  77 => 11,  59 => 10,  56 => 9,  50 => 7,  44 => 5,  42 => 4,  39 => 3,  21 => 2,  19 => 1,);
+        return array (  44 => 7,  33 => 5,  29 => 4,  26 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
