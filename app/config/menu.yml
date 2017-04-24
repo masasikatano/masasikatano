@@ -4,8 +4,8 @@
 main:
     - label: home
       path: homepage
-    - label: link
-      path: showcases/link
+    - label: masasikatanoのWEBサイト
+      path: https://jp.pinterest.com/masasikatano/masasikatanos-web-site/
       
 #     - label: Second item
 #       path: entry/1
